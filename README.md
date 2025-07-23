@@ -49,10 +49,76 @@ The dataset used is a modified version of the **UCI Adult Census Income dataset*
    - Used classifiers like:
      - Logistic Regression
      - Random Forest
-     - Decision Tree (optional)
-   - Trained and saved the best-performing model as `best_model.pkl`
+     - KNN
+     - SVM
+     - GRADIENT BOOSTING
+
+   🤖 Model Comparison:
+   LogisticRegression Accuracy: 0.8570
+              precision    recall  f1-score   support
+
+       <=50K       0.89      0.93      0.91      7479
+        >50K       0.74      0.61      0.67      2290
+
+    accuracy                           0.86      9769
+   macro avg       0.81      0.77      0.79      9769
+weighted avg       0.85      0.86      0.85      9769
+
+
+RandomForest Accuracy: 0.8620
+              precision    recall  f1-score   support
+
+       <=50K       0.89      0.93      0.91      7479
+        >50K       0.74      0.64      0.69      2290
+
+    accuracy                           0.86      9769
+   macro avg       0.81      0.79      0.80      9769
+weighted avg       0.86      0.86      0.86      9769
+
+
+KNN Accuracy: 0.8386
+              precision    recall  f1-score   support
+
+       <=50K       0.89      0.91      0.90      7479
+        >50K       0.67      0.62      0.64      2290
+
+    accuracy                           0.84      9769
+   macro avg       0.78      0.76      0.77      9769
+weighted avg       0.83      0.84      0.84      9769
+
+
+SVM Accuracy: 0.8629
+              precision    recall  f1-score   support
+
+       <=50K       0.88      0.94      0.91      7479
+        >50K       0.77      0.60      0.67      2290
+
+    accuracy                           0.86      9769
+   macro avg       0.83      0.77      0.79      9769
+weighted avg       0.86      0.86      0.86      9769
+
+
+GradientBoosting Accuracy: 0.8740
+              precision    recall  f1-score   support
+
+       <=50K       0.89      0.95      0.92      7479
+        >50K       0.79      0.62      0.70      2290
+
+    accuracy                           0.87      9769
+   macro avg       0.84      0.79      0.81      9769
+weighted avg       0.87      0.87      0.87      9769
+   
 
 ---
+
+### 🧪 Evaluation
+
+After training and comparing multiple models, the **GRADIENT BOOSTING** gave the best performance.
+
+- **Best Model**: GRADIENT BOOSTING
+- **Accuracy**: 0.8740 
+
+
 
 ## 🖥️ App Interface
 
